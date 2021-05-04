@@ -5265,8 +5265,7 @@ var methods = function () {
     var getChainId = new Method({
         name: 'getChainId',
         call: 'eth_chainId',
-        params: 0,
-        outputFormatter: utils.hexToNumber
+        params: 0
     });
 
     var getCompilers = new Method({
