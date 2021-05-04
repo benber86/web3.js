@@ -1,8 +1,8 @@
-var Web3 = require('./lib/web3');
+var MultisigWeb3 = require('./lib/web3');
 
 // dont override global variable
-if (typeof window !== 'undefined' && typeof window.Web3 === 'undefined') {
-    window.Web3 = Web3;
+if (typeof window !== 'undefined' && typeof window.MultisigWeb3 === 'undefined') {
+    window.MultisigWeb3 = MultisigWeb3;
 }
 
-module.exports = Web3;
+module.exports = MultisigWeb3;
