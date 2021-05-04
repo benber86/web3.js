@@ -10,6 +10,7 @@
   "dependencies": {
     "bignumber.js": "git+https://github.com/debris/bignumber.js.git#94d7146671b9719e00a09c29b01a691bc85048c2",
     "crypto-js": "^3.1.4",
+    "number-to-bn": "1.7.0",
     "utf8": "^2.1.1",
     "xhr2": "*",
     "xmlhttprequest": "*"
